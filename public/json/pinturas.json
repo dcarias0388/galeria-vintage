@@ -1,0 +1,233 @@
+[
+  {
+    "title": "Mona Lisa",
+    "contentId": 225189,
+    "artistContentId": 225091,
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1519,
+    "yearAsString": "1519",
+    "width": 671,
+    "image": "https://uploads0.wikiart.org/00339/images/leonardo-da-vinci/mona-lisa-c-1503-1519.jpg!Large.jpg",
+    "height": 1000
+  },
+  {
+    "title": "The Starry Night",
+    "contentId": 207190,
+    "artistContentId": 204915,
+    "artistName": "Vincent van Gogh",
+    "completitionYear": 1889,
+    "yearAsString": "1889",
+    "width": 5000,
+    "image": "https://uploads4.wikiart.org/00142/images/vincent-van-gogh/the-starry-night.jpg!Large.jpg",
+    "height": 3959
+  },
+  {
+    "title": "The Persistence of Memory",
+    "contentId": 221654,
+    "artistContentId": 220740,
+    "artistName": "Salvador Dali",
+    "completitionYear": 1931,
+    "yearAsString": "1931",
+    "width": 2105,
+    "image": "https://uploads6.wikiart.org/images/salvador-dali/the-persistence-of-memory-1931.jpg!Large.jpg",
+    "height": 1600
+  },
+  {
+    "title": "In Bed, The Kiss",
+    "contentId": 230453,
+    "artistContentId": 230332,
+    "artistName": "Henri de Toulouse-Lautrec",
+    "completitionYear": 1892,
+    "yearAsString": "1892",
+    "width": 1094,
+    "image": "https://uploads8.wikiart.org/images/henri-de-toulouse-lautrec/in-bed-the-kiss-1892.jpg!Large.jpg",
+    "height": 815
+  },
+  {
+    "title": "The Birth of Venus",
+    "contentId": 189114,
+    "artistContentId": 188828,
+    "artistName": "Sandro Botticelli",
+    "completitionYear": 1485,
+    "yearAsString": "1485",
+    "width": 1600,
+    "image": "https://uploads6.wikiart.org/images/sandro-botticelli/the-birth-of-venus-1485(1).jpg!Large.jpg",
+    "height": 1067
+  },
+  {
+    "title": "The Two Fridas",
+    "contentId": 185009,
+    "artistContentId": 184917,
+    "artistName": "Frida Kahlo",
+    "completitionYear": 1939,
+    "yearAsString": "1939",
+    "width": 2206,
+    "image": "https://uploads5.wikiart.org/images/magdalena-carmen-frieda-kahlo-y-calderón-de-rivera/the-two-fridas-1939.jpg!Large.jpg",
+    "height": 2186
+  },
+  {
+    "title": "Manga",
+    "contentId": 222237,
+    "artistContentId": 222127,
+    "artistName": "Katsushika Hokusai",
+    "completitionYear": null,
+    "yearAsString": null,
+    "width": 487,
+    "image": "https://uploads6.wikiart.org/images/katsushika-hokusai/manga-7.jpg!Large.jpg",
+    "height": 650
+  },
+  {
+    "title": "The Son of Man",
+    "contentId": 211454,
+    "artistContentId": 210903,
+    "artistName": "Rene Magritte",
+    "completitionYear": 1964,
+    "yearAsString": "1964",
+    "width": 1252,
+    "image": "https://uploads3.wikiart.org/images/rene-magritte/son-of-man-1964(1).jpg!Large.jpg",
+    "height": 1624
+  },
+  {
+    "title": "Camille Monet and a Child in the Artist’s Garden in Argenteuil",
+    "contentId": 212081,
+    "artistContentId": 211667,
+    "artistName": "Claude Monet",
+    "completitionYear": 1875,
+    "yearAsString": "1875",
+    "width": 3060,
+    "image": "https://uploads0.wikiart.org/images/claude-monet/madame-monet-and-child(1).jpg!Large.jpg",
+    "height": 2586
+  },
+  {
+    "title": "Self-Portrait",
+    "contentId": 224416,
+    "artistContentId": 223667,
+    "artistName": "Pablo Picasso",
+    "completitionYear": 1907,
+    "yearAsString": "1907",
+    "width": 804,
+    "image": "https://uploads3.wikiart.org/images/pablo-picasso/self-portrait-1907.jpg!Large.jpg",
+    "height": 1022
+  },
+  {
+    "title": "Composition A",
+    "contentId": 185989,
+    "artistContentId": 185969,
+    "artistName": "Piet Mondrian",
+    "completitionYear": 1923,
+    "yearAsString": "1923",
+    "width": 889,
+    "image": "https://uploads3.wikiart.org/images/piet-mondrian/composition-a-1923.jpg!Large.jpg",
+    "height": 866
+  },
+  {
+    "title": "Ballerina in a Death's Head",
+    "contentId": 220816,
+    "artistContentId": 220740,
+    "artistName": "Salvador Dali",
+    "completitionYear": 1939,
+    "yearAsString": "1939",
+    "width": 640,
+    "image": "https://uploads3.wikiart.org/images/salvador-dali/ballerina-in-a-death-s-head.jpg!Large.jpg",
+    "height": 815
+  },
+  {
+    "title": "The Kiss",
+    "contentId": 191604,
+    "artistContentId": 191443,
+    "artistName": "Gustav Klimt",
+    "completitionYear": 1908,
+    "yearAsString": "1908",
+    "width": 883,
+    "image": "https://uploads0.wikiart.org/images/gustav-klimt/the-kiss-1908(1).jpg!Large.jpg",
+    "height": 906
+  },
+  {
+    "title": "Philistines",
+    "contentId": 203896,
+    "artistContentId": 203777,
+    "artistName": "Jean-Michel Basquiat",
+    "completitionYear": 1982,
+    "yearAsString": "1982",
+    "width": 2265,
+    "image": "https://uploads3.wikiart.org/images/jean-michel-basquiat/philistines.jpg!Large.jpg",
+    "height": 1320
+  },
+  {
+    "title": "Woman in a White Shirt",
+    "contentId": 232165,
+    "artistContentId": 231885,
+    "artistName": "Lucian Freud",
+    "completitionYear": 1957,
+    "yearAsString": "1957",
+    "width": 1158,
+    "image": "https://uploads2.wikiart.org/images/lucian-freud/woman-in-a-white-shirt-1957.jpg!Large.jpg",
+    "height": 1333
+  },
+  {
+    "title": "The Abyss of Hell",
+    "contentId": 189110,
+    "artistContentId": 188828,
+    "artistName": "Sandro Botticelli",
+    "completitionYear": 1480,
+    "yearAsString": "1480",
+    "width": 1044,
+    "image": "https://uploads5.wikiart.org/images/sandro-botticelli/the-abyss-of-hell-1480(1).jpg!Large.jpg",
+    "height": 700
+  },
+  {
+    "title": "Impression, sunrise",
+    "contentId": 212026,
+    "artistContentId": 211667,
+    "artistName": "Claude Monet",
+    "completitionYear": 1872,
+    "yearAsString": "1872",
+    "width": 5773,
+    "image": "https://uploads0.wikiart.org/00129/images/claude-monet/impression-sunrise.jpg!Large.jpg",
+    "height": 4478
+  },
+  {
+    "title": "Lady with Fan",
+    "contentId": 191513,
+    "artistContentId": 191443,
+    "artistName": "Gustav Klimt",
+    "completitionYear": 1918,
+    "yearAsString": "1918",
+    "width": 2772,
+    "image": "https://uploads2.wikiart.org/images/gustav-klimt/lady-with-fan-1918.jpg!Large.jpg",
+    "height": 2760
+  },
+  {
+    "title": "Study of horses",
+    "contentId": 225261,
+    "artistContentId": 225091,
+    "artistName": "Leonardo da Vinci",
+    "completitionYear": 1490,
+    "yearAsString": "1490",
+    "width": 801,
+    "image": "https://uploads4.wikiart.org/images/leonardo-da-vinci/study-of-horses.jpg!Large.jpg",
+    "height": 1074
+  },
+  {
+    "title": "Basket of Apples",
+    "contentId": 215874,
+    "artistContentId": 215455,
+    "artistName": "Paul Cezanne",
+    "completitionYear": 1895,
+    "yearAsString": "1895",
+    "width": 2536,
+    "image": "https://uploads1.wikiart.org/images/paul-cezanne/still-life-with-bottle-and-apple-basket-1894.jpg!Large.jpg",
+    "height": 2003
+  },
+  {
+    "title": "Portrait of Lydia Delectorskaya",
+    "contentId": 214149,
+    "artistContentId": 213888,
+    "artistName": "Henri Matisse",
+    "completitionYear": 1947,
+    "yearAsString": "1947",
+    "width": 573,
+    "image": "https://uploads0.wikiart.org/images/henri-matisse/portrait-of-l-n-delekorskaya-1947.jpg!Large.jpg",
+    "height": 755
+  }
+]
