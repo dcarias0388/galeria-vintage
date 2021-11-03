@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/galeria-vintage/static/css/main.64dc69be.chunk.css",
+    "main.js": "/galeria-vintage/static/js/main.b1dd3ebd.chunk.js",
+    "main.js.map": "/galeria-vintage/static/js/main.b1dd3ebd.chunk.js.map",
+    "runtime-main.js": "/galeria-vintage/static/js/runtime-main.e50cdfb5.js",
+    "runtime-main.js.map": "/galeria-vintage/static/js/runtime-main.e50cdfb5.js.map",
+    "static/css/2.05621ba8.chunk.css": "/galeria-vintage/static/css/2.05621ba8.chunk.css",
+    "static/js/2.a8eccf5c.chunk.js": "/galeria-vintage/static/js/2.a8eccf5c.chunk.js",
+    "static/js/2.a8eccf5c.chunk.js.map": "/galeria-vintage/static/js/2.a8eccf5c.chunk.js.map",
+    "index.html": "/galeria-vintage/index.html",
+    "static/css/2.05621ba8.chunk.css.map": "/galeria-vintage/static/css/2.05621ba8.chunk.css.map",
+    "static/css/main.64dc69be.chunk.css.map": "/galeria-vintage/static/css/main.64dc69be.chunk.css.map",
+    "static/js/2.a8eccf5c.chunk.js.LICENSE.txt": "/galeria-vintage/static/js/2.a8eccf5c.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/galeria-vintage/static/media/home-bg.3cf16297.png",
+    "static/media/architecture.738fbd1f.jpg": "/galeria-vintage/static/media/architecture.738fbd1f.jpg",
+    "static/media/carlla-willstons.53507772.jpg": "/galeria-vintage/static/media/carlla-willstons.53507772.jpg",
+    "static/media/food.2f276c30.jpg": "/galeria-vintage/static/media/food.2f276c30.jpg",
+    "static/media/insta1.f0675bfd.png": "/galeria-vintage/static/media/insta1.f0675bfd.png",
+    "static/media/insta2.e50b0aeb.png": "/galeria-vintage/static/media/insta2.e50b0aeb.png",
+    "static/media/insta4.60eba282.png": "/galeria-vintage/static/media/insta4.60eba282.png",
+    "static/media/insta5.ce05fa70.png": "/galeria-vintage/static/media/insta5.ce05fa70.png",
+    "static/media/interior1.d7b1ab7f.jpg": "/galeria-vintage/static/media/interior1.d7b1ab7f.jpg",
+    "static/media/mark-tommson.5956f6ff.jpg": "/galeria-vintage/static/media/mark-tommson.5956f6ff.jpg",
+    "static/media/t-post1.8a3910a8.png": "/galeria-vintage/static/media/t-post1.8a3910a8.png",
+    "static/media/t-post2.b45605e9.png": "/galeria-vintage/static/media/t-post2.b45605e9.png",
+    "static/media/t-post3.8edd288f.png": "/galeria-vintage/static/media/t-post3.8edd288f.png",
+    "static/media/tecnicas.7d8723a7.webp": "/galeria-vintage/static/media/tecnicas.7d8723a7.webp",
+    "static/media/travel.0e6f82f1.jpg": "/galeria-vintage/static/media/travel.0e6f82f1.jpg",
+    "static/media/vintage.2b915548.jpg": "/galeria-vintage/static/media/vintage.2b915548.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e50cdfb5.js",
+    "static/css/2.05621ba8.chunk.css",
+    "static/js/2.a8eccf5c.chunk.js",
+    "static/css/main.64dc69be.chunk.css",
+    "static/js/main.b1dd3ebd.chunk.js"
+  ]
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "titulo": "Pirámides Galácticas",
+    "fecha": "2020-03-10T03:45:21.130Z",
+    "descripcion": "Ilustración de cuadro salón de planeta espacial: El diseño de cuadro dormitorio  con cohetes espaciales y otros diseños de cuerpos planetarios. Crea una maravillosa imaginación de mundo de fantasí­a en tu lugar con este diseño. El producto es original, fácil de colgar en la pared y dura mucho tiempo sin decolorarse.",
+    "autor": "Pedro Pablo Domínguez",
+    "favorito": false,
+    "imagen": "./images/gallery1.jpg",
+    "comentarios": [
+      {
+        "id": 1,
+        "fecha": "2020-06-18T03:45:21.130Z",
+        "nombre": "Estela Hernández",
+        "email": "estela0205@gmail.com",
+        "comentario": "Es maravilloso esta obra de arte, es fascinante ver cuanta belleza guarda esta obra. Felicitar al autor de este maravilloso cuadro."
+      },
+      {
+        "id": 2,
+        "fecha": "2020-12-24T03:45:21.130Z",
+        "nombre": "Jose Gonzáalez",
+        "email": "jose_ant@gmail.com",
+        "comentario": "Una obra de arte maravillosa. Es magnifico."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Frase Hora del Baño",
+    "fecha": "2021-01-12T03:45:21.130Z",
+    "descripcion": "Se trata de un cuadro frase hecho original impreso en acabado de alta calidad. Cambia el ambiente de tu baño con este original cuadro frase.",
+    "autor": "Efrain Garcia Diaz",
+    "favorito": false,
+    "imagen": "./images/gallery2.jpg",
+    "comentarios": [
+      {
+        "id": 1,
+        "fecha": "2021-03-15T03:45:21.130Z",
+        "nombre": "Jorge Martínez",
+        "email": "jorgemart@hotmail.com",
+        "comentario": "Fascinante ver cuanta belleza guarda esta obra. Muy buen trabajo."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "La mejor cerveza de la ciudad",
+    "fecha": "2019-08-30T03:45:21.130Z",
+    "descripcion": " Nuestro cuadros ya están montados, solo tendrás que colgarlos en la pared sin preocupaciones. Los estampados de pared vintage están impresos con un acabado de alta calidad. Nos apasiona lo que hacemos gracias a la increí­ble satisfacción que percibimos de nuestros clientes cuando reciben nuestros productos. Como resultado, podemos ofrecer a nuestros clientes productos únicos, dinámicos y creativos. Nuestro personal está altamente capacitado y dedicado a su oficio. ",
+    "autor": "Anay Gloria Diaz",
+    "favorito": false,
+    "imagen": "./images/gallery3.jpg",
+    "comentarios": [
+      {
+        "id": 1,
+        "fecha": "2020-06-25T03:45:21.130Z",
+        "nombre": "Laura Perez",
+        "email": "lau@gmail.com",
+        "comentario": "Súper la obra."
+      },
+      {
+        "id": 2,
+        "fecha": "2020-11-12T03:45:21.130Z",
+        "nombre": "Carlos Ruiz",
+        "email": "cruiz@hotmail.com",
+        "comentario": "Una obra de arte maravillosa. Es magnifico."
+      },
+      {
+        "id": 3,
+        "fecha": "2021-01-10T03:45:21.130Z",
+        "nombre": "Jose González",
+        "email": "jose_ant@gmail.com",
+        "comentario": "Es maravilloso todo lo que el artista refleja en su obra. Es muy expresiva con todo el arte que la caracteriza. Poder disfrutar de este artista es fascinante."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Retro Vintage Moto Roja",
+    "fecha": "2020-04-01T03:45:21.130Z",
+    "descripcion": "Arte Retro la Moto Roja. Consigue este diseñoo y disfruta de todos los elementos únicos que puedes utilizar para cambiar el aspecto de tus paredes. Este diseño es perfecto si eres fanático de las bicicletas vintage. Su familia e invitados disfrutarán de la apariencia y seguramente lo felicitarón por ello. Esto es más que una simple decoración. Uselo en la sala de estar o en el dormitorio. Este producto está hecho con materiales de primera calidad y su satisfacción en mente.",
+    "autor": "Pedro Pablo Dominguez",
+    "favorito": false,
+    "imagen": "./images/gallery4.jpg",
+    "comentarios": [
+      {
+        "id": 1,
+        "fecha": "2021-03-15T03:45:21.130Z",
+        "nombre": "Jorge Martínez",
+        "email": "jorgemart@hotmail.com",
+        "comentario": "Fascinante ver cuanta belleza guarda esta obra. Muy buen trabajo."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "Soledad ante nebulosa",
+    "fecha": "2021-07-08T03:45:21.130Z",
+    "descripcion": "Cuadro arte  para decorar cualquier lugar con una presencia tranquila y relajante. El cuadro para salón ilustra a un hombre caminando con globos flotantes en una atmósfera que representa el lugar.",
+    "autor": "Alberto Sanchez Foundora",
+    "favorito": false,
+    "imagen": "./images/gallery5.jpg",
+    "comentarios": [
+      {
+        "id": 1,
+        "fecha": "2020-06-18T03:45:21.130Z",
+        "nombre": "Estela Hernández",
+        "email": "estela0205@gmail.com",
+        "comentario": "Es maravilloso esta obra de arte, es fascinante ver cuanta belleza guarda esta obra. Felicitar al autor de este maravilloso cuadro."
+      },
+      {
+        "id": 2,
+        "fecha": "2020-12-24T03:45:21.130Z",
+        "nombre": "Jose Gonzáalez",
+        "email": "jose_ant@gmail.com",
+        "comentario": "Una obra de arte maravillosa. Es magnifico."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Trí­ptico Vintage",
+    "fecha": "2020-09-29T03:45:21.130Z",
+    "descripcion": "Su hogar definitivamente se beneficiará de la adición de este maravilloso cuadro floral tropical. Presenta una maceta llena de flores tropicales con un fondo de aspecto de texto vintage para agregar singularidad y carácter.",
+    "autor": "Efrain Garcia Diaz",
+    "favorito": false,
+    "imagen": "./images/gallery6.jpg",
+    "comentarios": [
+      {
+        "id": 1,
+        "fecha": "2020-06-25T03:45:21.130Z",
+        "nombre": "Laura Perez",
+        "email": "lau@gmail.com",
+        "comentario": "Súper la obra."
+      },
+      {
+        "id": 2,
+        "fecha": "2020-11-12T03:45:21.130Z",
+        "nombre": "Carlos Ruiz",
+        "email": "cruiz@hotmail.com",
+        "comentario": "Una obra de arte maravillosa. Es magnifico."
+      },
+      {
+        "id": 3,
+        "fecha": "2021-01-10T03:45:21.130Z",
+        "nombre": "Jose González",
+        "email": "jose_ant@gmail.com",
+        "comentario": "Es maravilloso todo lo que el artista refleja en su obra. Es muy expresiva con todo el arte que la caracteriza. Poder disfrutar de este artista es fascinante."
+      }
+    ]
+  }
+]
