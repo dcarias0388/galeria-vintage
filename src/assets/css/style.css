@@ -249,7 +249,7 @@ header .card h2 {
   }
 
   .news-title {
-    font-size: 0.2rem;
+    font-size: 0.2rem !important;
   }
 }
 @media (max-width: 767px) {
