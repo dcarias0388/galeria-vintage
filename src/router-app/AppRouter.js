@@ -22,7 +22,7 @@ function AppRouter() {
       )}
       <Router history={history} basename="/galeria-vintage">
         <Switch>
-          <Route exact path="/" component={Main} />
+          <Route path="/" exact component={Main} />
           <PrivateRoute
             path="/admin"
             roles={[Role.Admin]}
