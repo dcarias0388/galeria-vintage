@@ -110,29 +110,29 @@ function Navbar() {
           >
             <ul className="navbar-nav mx-auto">
               <li className="nav-item">
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="/galeria-vintage/">
                   HOME
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/historia">
+                <Link className="nav-link" to="/galeria-vintage/historia">
                   CONTENIDO
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="cultura">
+                <Link className="nav-link" to="/galeria-vintage/cultura">
                   CULTURA
                 </Link>
               </li>
               {currentUser && isAdmin ? (
                 <>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/admin">
+                    <Link className="nav-link" to="/galeria-vintage/admin">
                       ADMIN
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/artista">
+                    <Link className="nav-link" to="/galeria-vintage/artista">
                       ARTISTA
                     </Link>
                   </li>
@@ -142,7 +142,7 @@ function Navbar() {
               )}
               {currentUser && isArtista ? (
                 <li className="nav-item">
-                  <Link className="nav-link" to="/artista">
+                  <Link className="nav-link" to="/galeria-vintage/artista">
                     ARTISTA
                   </Link>
                 </li>
@@ -199,7 +199,7 @@ function Navbar() {
                       <Link
                         className="dropdown-item"
                         style={{ color: "white" }}
-                        to="perfil"
+                        to="/galeria-vintage/perfil"
                       >
                         Mi Perfil
                       </Link>
@@ -208,7 +208,7 @@ function Navbar() {
                       <Link
                         className="dropdown-item"
                         style={{ color: "white" }}
-                        to="/"
+                        to="/galeria-vintage/"
                         onClick={handleLogout}
                       >
                         Cerrar Sesión

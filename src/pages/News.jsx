@@ -11,13 +11,7 @@ function News() {
   const fetchNews = async () => {
     try {
       const response = await axios.get(
-        "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=bbe9d270b68e44e8bfad94bcac25cb3e",
-        {
-          headers: {
-            "Access-Control-Allow-Origin": "*",
-            "Content-type": "Application/json",
-          },
-        }
+        "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=bbe9d270b68e44e8bfad94bcac25cb3e"
       );
       setNews(response.data.articles);
     } catch (err) {

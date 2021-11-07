@@ -20,23 +20,35 @@ function AppRouter() {
       {alert.message && (
         <div className={`alert ${alert.type}`}>{alert.message}</div>
       )}
-      <Router history={history} basename="/galeria-vintage">
+      <Router history={history}>
         <Switch>
-          <Route path="/" exact component={Main} />
+          <Route path="/galeria-vintage/" exact component={Main} />
           <PrivateRoute
-            path="/admin"
+            path="/galeria-vintage/admin"
             roles={[Role.Admin]}
             component={AdminPage}
           />
           <PrivateRoute
-            path="/artista"
+            path="/galeria-vintage/artista"
             roles={[Role.Artista, Role.Admin]}
             component={ArtistPage}
           />
-          <Route path="/perfil" exact component={MiPerfil} />
-          <Route path="/article/:articleId" exact component={ArticleDetaills} />
-          <Route path="/cultura" exact component={CulturaDetaills} />
-          <Route path="/historia" exact component={HistoriaDetaills} />
+          <Route path="/galeria-vintage/perfil" exact component={MiPerfil} />
+          <Route
+            path="/galeria-vintage/article/:articleId"
+            exact
+            component={ArticleDetaills}
+          />
+          <Route
+            path="/galeria-vintage/cultura"
+            exact
+            component={CulturaDetaills}
+          />
+          <Route
+            path="/galeria-vintage/historia"
+            exact
+            component={HistoriaDetaills}
+          />
           <Route>404 Not Found!</Route>
         </Switch>
       </Router>

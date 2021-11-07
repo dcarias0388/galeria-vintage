@@ -11,14 +11,19 @@ function PrivateRoute({ component: Component, roles, ...rest }) {
         if (!user) {
           // not logged in so redirect to login page with the return url
           return (
-            <Redirect to={{ pathname: "/", state: { from: props.location } }} />
+            <Redirect
+              to={{
+                pathname: "/galeria-vintage/",
+                state: { from: props.location },
+              }}
+            />
           );
         }
 
         // check if route is restricted by role
         if (roles && roles.indexOf(user.role) === -1) {
           // role not authorised so redirect to home page
-          return <Redirect to={{ pathname: "/" }} />;
+          return <Redirect to={{ pathname: "/galeria-vintage/" }} />;
         }
 
         // logged in so return component
