@@ -20,7 +20,7 @@ function AppRouter() {
       {alert.message && (
         <div className={`alert ${alert.type}`}>{alert.message}</div>
       )}
-      <Router history={history}>
+      <Router history={history} basename="/galeria-vintage">
         <Switch>
           <Route exact path="/" component={Main} />
           <PrivateRoute
