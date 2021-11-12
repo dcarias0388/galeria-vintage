@@ -13,7 +13,7 @@ function PrivateRoute({ component: Component, roles, ...rest }) {
           return (
             <Redirect
               to={{
-                pathname: "/galeria-vintage/",
+                pathname: "/",
                 state: { from: props.location },
               }}
             />
@@ -23,7 +23,7 @@ function PrivateRoute({ component: Component, roles, ...rest }) {
         // check if route is restricted by role
         if (roles && roles.indexOf(user.role) === -1) {
           // role not authorised so redirect to home page
-          return <Redirect to={{ pathname: "/galeria-vintage/" }} />;
+          return <Redirect to={{ pathname: "/" }} />;
         }
 
         // logged in so return component
