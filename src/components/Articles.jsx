@@ -62,16 +62,12 @@ function Articles() {
               <input
                 type="checkbox"
                 checked={date}
-                onChange={handleChangeDate}
+                onClick={handleChangeDate}
               />{" "}
               Ordenar por Fecha
             </div>
             <div className="ms-2 me-2">
-              <input
-                type="checkbox"
-                checked={art}
-                onChange={handdleChangeArt}
-              />{" "}
+              <input type="checkbox" checked={art} onClick={handdleChangeArt} />{" "}
               Seleccionar por Artista
               {art === true ? (
                 <div>

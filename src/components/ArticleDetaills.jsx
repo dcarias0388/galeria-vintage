@@ -25,15 +25,11 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
-import { Controlled as ControlledZoom } from "react-medium-image-zoom";
-import "react-medium-image-zoom/dist/styles.css";
-
 function ArticleDetaills() {
   const { articleId } = useParams();
   const articles = useSelector((state) => state.allArticles.articles);
   const [cuadro, setCuadro] = useState({});
   const dispatch = useDispatch();
-  const [isZoomed, setIsZoomed] = useState(false);
   let [coment, setComent] = useState({
     nombre: "",
     email: "",
@@ -47,12 +43,9 @@ function ArticleDetaills() {
   };
 
   useEffect(() => {
+    console.log("este es el id" + articleId);
     if (articleId !== "") fetchArticleDetaills();
-  }, [articles]);
-
-  const handleZoomChange = useCallback(() => {
-    setIsZoomed(!isZoomed);
-  }, []);
+  }, [articleId]);
 
   const handleOnChange = (e) => {
     const { name, value } = e.target;
@@ -79,18 +72,14 @@ function ArticleDetaills() {
           <div className="row">
             <div className="col-lg-9 pr-5">
               <div className="card ar-img-over">
-                <ControlledZoom isZoomed={isZoomed}>
-                  <img
-                    className="card-img"
-                    src={`./../.${cuadro.imagen}`}
-                    alt=""
-                    onClick={handleZoomChange}
-                  />
-                </ControlledZoom>
+                <img
+                  className="card-img"
+                  src={`./../${cuadro.imagen}`}
+                  alt=""
+                />
                 <div className="card-img-overlay">
                   <Link
                     to="#"
-                    onClick={handleZoomChange}
                     className="d-flex align-items-center justify-content-center"
                   >
                     <img src={fullScreem} alt="full" />
@@ -166,10 +155,9 @@ function ArticleDetaills() {
                             className="form-control"
                             id="comentario"
                             name="comentario"
-                            value={coment.comentario}
+                            defaultValue={coment.comentario}
                             onChange={handleOnChange}
                             placeholder="Comentario"
-                            defaultValue={""}
                             required
                           />
                         </td>
@@ -348,7 +336,7 @@ function ArticleDetaills() {
                     </div>
                   </div>
                 </div>
-                <h3 className="text-center mt-5">Trending Posts</h3>
+                <h3 className="text-center mt-5">Publicaciones de tendencia</h3>
                 <hr
                   className="mx-auto"
                   style={{
@@ -365,8 +353,8 @@ function ArticleDetaills() {
                       </Link>
                     </div>
                     <div className="media-body text-center d-flex align-items-center justify-content-center flex-column px-3">
-                      <Link to="#">The latest trends in Travel</Link>
-                      <p className="mt-1">08 Jan 2019</p>
+                      <Link to="#">Las últimas tendencias en viajes</Link>
+                      <p className="mt-1">08 Ene 2020</p>
                     </div>
                   </div>
                   <div className="media my-3">
@@ -376,8 +364,8 @@ function ArticleDetaills() {
                       </Link>
                     </div>
                     <div className="media-body text-center d-flex align-items-center justify-content-center flex-column px-3">
-                      <Link to="#">Effective fine art design</Link>
-                      <p className="mt-1">08 Jan 2019</p>
+                      <Link to="#">Diseño eficaz de bellas artes</Link>
+                      <p className="mt-1">12 Mar 2020</p>
                     </div>
                   </div>
                   <div className="media my-3">
@@ -387,8 +375,8 @@ function ArticleDetaills() {
                       </Link>
                     </div>
                     <div className="media-body text-center d-flex align-items-center justify-content-center flex-column px-3">
-                      <Link to="#">How to design your first PSD?</Link>
-                      <p className="mt-1">08 Jan 2019</p>
+                      <Link to="#">¿Cómo diseñar tu primer PSD?</Link>
+                      <p className="mt-1">20 Oct 2020</p>
                     </div>
                   </div>
                 </div>
