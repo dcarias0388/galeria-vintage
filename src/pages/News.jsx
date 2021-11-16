@@ -5,22 +5,35 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import axios from "axios";
 import "../assets/css/style.css";
 
+const options = {
+  margin: 10,
+  resposiveClass: true,
+  nav: true,
+  autoplay: true,
+  autoplayTimeout: 2000,
+  loop: true,
+  smartSpeed: 1000,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    400: {
+      items: 1,
+    },
+    600: {
+      items: 2,
+    },
+    700: {
+      items: 3,
+    },
+    1000: {
+      items: 3,
+    },
+  },
+};
+
 function News() {
   const [news, setNews] = useState([]);
-
-  // const fetchNews = async () => {
-  //   try {
-  //     const response = await axios.get(
-  //       "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=bbe9d270b68e44e8bfad94bcac25cb3e",
-  //       {
-  //         mode: "cors",
-  //       }
-  //     );
-  //     setNews(response.data.articles);
-  //   } catch (err) {
-  //     console.log("Err", err);
-  //   }
-  // };
 
   const fetchNews = async () => {
     try {
@@ -52,7 +65,7 @@ function News() {
       <hr className="mx-auto" />
       <div className="play-list">
         {news.length !== 0 && (
-          <OwlCarousel className="owl-theme" items={3} loop margin={10} nav>
+          <OwlCarousel className="owl-theme owl-carousel" {...options}>
             {news.map((n, index) =>
               n.media.length !== 0 ? (
                 <div key={index}>

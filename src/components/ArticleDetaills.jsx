@@ -43,7 +43,6 @@ function ArticleDetaills() {
   };
 
   useEffect(() => {
-    console.log("este es el id" + articleId);
     if (articleId !== "") fetchArticleDetaills();
   }, [articleId]);
 
@@ -77,14 +76,14 @@ function ArticleDetaills() {
                   src={`./../${cuadro.imagen}`}
                   alt=""
                 />
-                <div className="card-img-overlay">
+                {/* <div className="card-img-overlay">
                   <Link
                     to="#"
                     className="d-flex align-items-center justify-content-center"
                   >
                     <img src={fullScreem} alt="full" />
                   </Link>
-                </div>
+                </div> */}
               </div>
               <div className="row date-time mt-3"></div>
               <h2>{cuadro.titulo}</h2>

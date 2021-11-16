@@ -248,9 +248,9 @@ header .card h2 {
     margin-left: 0 !important;
   }
 
-  .news-title {
+  /* .news-title {
     font-size: 0.2rem !important;
-  }
+  } */
 }
 @media (max-width: 767px) {
   header .card h2 {

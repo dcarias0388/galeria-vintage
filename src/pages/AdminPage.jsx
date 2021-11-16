@@ -96,8 +96,15 @@ function AdminPage() {
   };
 
   const deleteUser = () => {
-    if (activeLi !== "") {
+    if (activeLi !== null) {
       dispatch(userActions.delete(activeLi));
+    } else {
+      Swal.fire({
+        text: "Seleccione un usuario para eliminar.",
+        icon: "warning",
+        showConfirmButton: false,
+        timer: 3000,
+      });
     }
   };
 
